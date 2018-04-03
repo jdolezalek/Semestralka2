@@ -51,10 +51,13 @@
             <children>
                 <VBox prefHeight="500.0" prefWidth="250.0">
                     <children>
-                        <Label text="Table of meanings:"/>
-                        <ListView fx:id="meaningsListView" prefHeight="500.0" prefWidth="250.0"/>
+                        <Label fx:id="wordLabel" text="Table of meanings:"/>
+                        <ListView fx:id="meaningsListView" onMouseClicked="#setPrimaryMeaning" prefHeight="500.0" prefWidth="250.0"/>
                     </children>
                 </VBox>
+            </children>
+            <children>
+                <Button fx:id="export" onAction="#export" mnemonicParsing="false" prefWidth="200.0" text="export" GridPane.columnIndex="1"/>
             </children>
         </VBox>
     </children>

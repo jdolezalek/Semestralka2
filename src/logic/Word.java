@@ -8,6 +8,11 @@ public class Word {
     private String wordString;
     private ArrayList<String> meanings;
 
+    //int nemuze byt null -> defaultne je 0!! pro porovnavani indexu v listView by tak byla oznacena 0 polozka v seznamu i kdyz byt nebyla nasetovana hodnota primaryMeaning
+    private int primaryMeaningIndex = 9999;
+
+
+// todo if 1 meanng - set to primary
     public Word(String word) {
         this.wordString = word;
         this.meanings = new ArrayList<>();
@@ -19,6 +24,14 @@ public class Word {
 
     public ArrayList<String> getMeanings() {
         return meanings;
+    }
+
+    public void setPrimaryMeaningIndex(int primaryMeaningIndex) {
+        this.primaryMeaningIndex = primaryMeaningIndex;
+    }
+
+    public int getPrimaryMeaningIndex() {
+        return primaryMeaningIndex;
     }
 
 
