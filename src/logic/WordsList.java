@@ -1,5 +1,11 @@
 package logic;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Observable;
@@ -12,6 +18,41 @@ public class WordsList extends Observable {
 
     public WordsList(HashMap<String, Word> stringWordsMap) {
         this.stringWordsMap = stringWordsMap;
+
+        //add word meanings into stringWordsMap from json, if any exists
+        this.setWordsFromJSON();
+
+    }
+
+    private void setWordsFromJSON() {
+
+        JSONParser parser = new JSONParser();
+
+        try {
+            Object obj = parser.parse(new FileReader("data.json"));
+            JSONObject jsonObject = (JSONObject) obj;
+            JSONObject words = (JSONObject) jsonObject.get("words");
+
+            for (Object word : words.keySet()) {
+
+                if (stringWordsMap.containsKey(word)) {
+
+                    JSONArray meanings = (JSONArray) words.get(word);
+
+                    for (Object meaning : meanings) {
+
+                        stringWordsMap.get(word).addMeaningToWord(meaning.toString());
+
+                    }
+                }
+
+            }
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     public HashMap<String, Word> getStringWordsMap() {
@@ -29,7 +70,7 @@ public class WordsList extends Observable {
 
     }
 
-    public void setPrimaryMeaning(String word, int meaning){
+    public void setPrimaryMeaning(String word, int meaning) {
         if (this.stringWordsMap.get(word) != null) {
             this.stringWordsMap.get(word).setPrimaryMeaningIndex(meaning);
         }

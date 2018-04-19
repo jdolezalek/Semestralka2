@@ -11,7 +11,7 @@ public class Paragraph {
     public Paragraph(String text) {
 
         this.paragraphText = text;
-
+        this.parseTextToWordObjects(text);
 
     }
 

@@ -1,5 +1,8 @@
 package logic;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
 
 public class App {
@@ -10,16 +13,41 @@ public class App {
 
     public App() {
 
-        paragraph = new Paragraph("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas libero. Praesent id justo in neque elementum ultrices. Etiam quis quam. Nullam dapibus fermentum ipsum. Aliquam erat volutpat. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Praesent id justo in neque elementum ultrices. Proin mattis lacinia justo. Aliquam in lorem sit amet leo accumsan lacinia. Sed convallis magna eu sem. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Maecenas sollicitudin.");
+        String sourceText = readFile("sourceFile.txt");
+        paragraph = new Paragraph(sourceText);
 
-        String text = paragraph.getParagraphText();
-        paragraph.parseTextToWordObjects(text);
         HashMap<String, Word> stringWordHashMap = paragraph.getParagraphStringWordMap();
 
         wordsList = new WordsList(stringWordHashMap);
 
 
+    }
 
+    private String readFile(String filename) {
+        StringBuilder sb = new StringBuilder();
+        BufferedReader br = null;
+        try {
+            br = new BufferedReader(new FileReader(filename));
+            String line;
+            while ((line = br.readLine()) != null) {
+                if (sb.length() > 0) {
+                    sb.append("\n");
+                }
+                sb.append(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (br != null) {
+                    br.close();
+                }
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+
+        return sb.toString();
     }
 
     public Paragraph getParagraph() {

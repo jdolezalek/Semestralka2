@@ -12,14 +12,15 @@ public class Word {
     private int primaryMeaningIndex = 9999;
 
 
-// todo if 1 meanng - set to primary
     public Word(String word) {
         this.wordString = word;
         this.meanings = new ArrayList<>();
     }
 
     public void addMeaningToWord(String meaning) {
-        this.meanings.add(meaning);
+       if (!this.meanings.contains(meaning)) {
+           this.meanings.add(meaning);
+       }
     }
 
     public ArrayList<String> getMeanings() {
