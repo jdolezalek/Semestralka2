@@ -103,9 +103,8 @@ public class Controller extends GridPane implements Observer {
                 }
 
                 highlightPrimaryMeaningInListView(trimmed);
-
-                wordLabel.setText(trimmed);
             }
+            wordLabel.setText(trimmed);
         }
     }
 
