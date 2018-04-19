@@ -19,6 +19,7 @@ Aplikace je frontend pro trénování významů slov v textech. Uživatel čte t
 
 ## Use case diagram
 
+NASTREL (https://github.com/jdolezalek/Semestralka2/tree/master/res/Obrázek_usecase.jpg "Use case diagram")
 
 ## Popis případů užití
 
