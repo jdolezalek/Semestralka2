@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StrojoveUceni/logic/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StrojoveUceni/logic/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StrojoveUceni/logic/Paragraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StrojoveUceni/logic/Paragraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StrojoveUceni/logic/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StrojoveUceni/logic/Word.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StrojoveUceni/logic/WordsList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StrojoveUceni/logic/WordsList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StrojoveUceni/main/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StrojoveUceni/main/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StrojoveUceni/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StrojoveUceni/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/Paragraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/WordsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/WordsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -98,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/data.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -289,7 +274,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../json-simple-1.1.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/json-simple-1.1.1.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -969,7 +954,7 @@
     <entry file="file://$PROJECT_DIR$/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1037,7 +1022,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>json-simple-1.1.1</last-edited>
+          <last-edited>json-simple-1.1.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
