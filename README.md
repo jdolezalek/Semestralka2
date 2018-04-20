@@ -19,28 +19,46 @@ Aplikace je frontend pro trénování významů slov v textech. Uživatel čte t
 
 ## Use case diagram
 
-NASTREL (https://github.com/jdolezalek/Semestralka2/tree/master/res/Obrázek_usecase.jpg "Use case diagram")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Obr%C3%A1zek_usecase.jpg "Logo Title Text 1")
 
 ## Popis případů užití
 
 #### Zadání odstavce
 
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/ZadaniOdstavce.png "Logo Title Text 1")
+
 #### Ověřit výskyt Stringu
+
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/OveritString.png "Logo Title Text 1")
 
 #### Vypsat významy do listu
 
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/VypsatVyznamyList.png "Logo Title Text 1")
+
 #### Přidání významu ke slovu
+
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/PridaniVyznamu.png "Logo Title Text 1")
 
 #### Zvýraznění významu
 
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/ZvyrazneniVyznamu.jpg.png "Logo Title Text 1")
+
 #### Přiřadit význam k textu
+
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/PriraditVyznamSlovaText.png "Logo Title Text 1")
 
 #### Zvýraznění slova
 
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/ZvyrazneniSlova.jpg "Logo Title Text 1")
+
 #### Exportovat data
+
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/ExportData.png "Logo Title Text 1")
 
 
 ## Class diagram
+
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/ClassDiagram.jpg "Logo Title Text 1")
 
 ## Struktura souborů
 Složka se vstupním souborem txt uložena na filesystému
@@ -51,7 +69,11 @@ Export textu s uživatelem vybranými významy k daným slovům se exportuje ve 
 
 #### Prvotní návrh
 
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/PrvotniNavrhUI.png "Logo Title Text 1")
+
 #### Provedení
+
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/NavrhDesign.png "Logo Title Text 1")
 
 ## Konvence
 
