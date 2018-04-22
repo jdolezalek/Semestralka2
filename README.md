@@ -71,6 +71,22 @@ Složka se vstupním souborem txt uložena na filesystému
 V aplikaci interní JSON pro ukládání všech významů slov vložených uživateli
 Export textu s uživatelem vybranými významy k daným slovům se exportuje ve formátu JSON do uživatelem vybrané složky na filesystému
 
+## Struktura JSON data souboru
+```
+{
+  "words": {
+    "word0": [
+      meanings
+    ],
+    "word1": [
+      meanings
+    ],
+    "word2": [
+      "meanings"
+    ]
+  }
+}
+```
 ## Návrh UI
 
 #### Prvotní návrh
