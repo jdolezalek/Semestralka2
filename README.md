@@ -17,6 +17,12 @@ Aplikace je frontend pro trénování významů slov v textech. Uživatel čte t
 |   Šorf Filip  |   návrh uživatelského rozhraní ; týmové konvence    | class Wordslist ; class App ; class Controller |
 |       Tým     |                                                     |                integrace ; class Main          |
 
+## Logika aplikace - návrh 03/18
+1. U pole vstup se ověří zda se daný string vyskytuje v textu - tlačítko kontrola
+2. Pokud existují významy, vypíší se do listu vpravo a umožní se psaní do pole význam + tlačítko přidat význam
+3. Kliknutím na význam v listu se ten význam přiřadí k danému textu - pokud už výraz k textu byl přiřazen, bude zvýrazněn rovnou
+4. Pokud uživatel přepíše vstup, musí ho nejdříve zkontrolovat a tím se přidá do paměti a bude s ním možné pracovat (tj. přidávat významy a pracovat s listem´)
+
 ## Use case diagram
 
 ![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Obr%C3%A1zek_usecase.jpg "Logo Title Text 1")
