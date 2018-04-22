@@ -25,46 +25,46 @@ Aplikace je frontend pro trénování významů slov v textech. Uživatel čte t
 
 ## Use case diagram
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Obr%C3%A1zek_usecase.jpg "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/UseCase Diagram0.jpg "Logo Title Text 1")
 
 ## Popis případů užití
 
 #### Zadání odstavce
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/ZadaniOdstavce.png "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Zadání odstavce.jpg "Logo Title Text 1")
 
 #### Ověřit výskyt Stringu
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/OveritString.png "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Ověřit výskyt Stringu.jpg "Logo Title Text 1")
 
 #### Vypsat významy do listu
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/VypsatVyznamyList.png "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Vypsat významy do listu.jpg "Logo Title Text 1")
 
 #### Přidání významu ke slovu
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/PridaniVyznamu.png "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Přidání významu ke slovu.jpg "Logo Title Text 1")
 
 #### Zvýraznění významu
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/ZvyrazneniVyznamu.jpg.png "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Zvýraznění významu.jpg "Logo Title Text 1")
 
 #### Přiřadit význam k textu
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/PriraditVyznamSlovaText.png "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Přidání významu ke slovu.jpg "Logo Title Text 1")
 
 #### Zvýraznění slova
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/ZvyrazneniSlova.jpg "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Zvýraznění slova.jpg "Logo Title Text 1")
 
 #### Exportovat data
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/ExportData.png "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Exportovat data.jpg "Logo Title Text 1")
 
 
 ## Class diagram
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/ClassDiagram.jpg "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Class Diagram0.jpg "Logo Title Text 1")
 
 ## Struktura souborů
 Složka se vstupním souborem txt uložena na filesystému
