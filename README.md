@@ -25,7 +25,7 @@ Aplikace je frontend pro trénování významů slov v textech. Uživatel čte t
 
 ## Use case diagram
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/UseCase Diagram0.jpg "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/UseCase&nbsp;Diagram0.jpg "Logo Title Text 1")
 
 ## Popis případů užití
 
