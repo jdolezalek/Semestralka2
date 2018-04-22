@@ -31,7 +31,7 @@ Aplikace je frontend pro trénování významů slov v textech. Uživatel čte t
 
 #### Zadání odstavce
 
-![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Zadaniddstavce.jpg "Logo Title Text 1")
+![alt text](https://github.com/jdolezalek/Semestralka2/blob/master/res/Zadaniodstavce.jpg "Logo Title Text 1")
 
 #### Ověřit výskyt Stringu
 
