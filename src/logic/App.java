@@ -1,6 +1,6 @@
  /**
- *  Tøída App -
- *@author     Doleálek Jan, Kalenskı Štìpán, Šorf Filip
+ *  Tï¿½ï¿½da App -
+ *@author     Doleï¿½ï¿½lek Jan, Kalenskï¿½ ï¿½tï¿½pï¿½n, ï¿½orf Filip Å¡ÄÅ™Å¾Ã½Ã¡Ã­
  *@version    1.0      
  *@created    LS 2017/2018
  */
