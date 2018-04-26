@@ -1,8 +1,9 @@
 /**
- *  Tøída Controller -
- *@author     Doležálek Jan, Kalenský Štìpán, Šorf Filip
- *@version    1.0      
- *@created    LS 2017/2018
+ * Tï¿½ï¿½da Controller -
+ *
+ * @author Doleï¿½ï¿½lek Jan, Kalenskï¿½ ï¿½tï¿½pï¿½n, ï¿½orf Filip
+ * @version 1.0
+ * @created LS 2017/2018
  */
 
 package main;
@@ -121,9 +122,12 @@ public class Controller extends GridPane implements Observer {
 
             Integer primaryMeaningIndex = meaningsListView.getSelectionModel().getSelectedIndex();
 
+            String primaryMeaning = meaningsListView.getSelectionModel().getSelectedItem().toString();
+
             String word = wordLabel.getText();
 
-            wordsList.setPrimaryMeaning(word, primaryMeaningIndex);
+            wordsList.setPrimaryMeaningIndex(word, primaryMeaningIndex);
+            wordsList.setPrimaryMeaning(word, primaryMeaning);
         }
     }
 
@@ -171,6 +175,27 @@ public class Controller extends GridPane implements Observer {
                 }
             }
         }
+
+        //2nd export - current paragraph words meaning
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("paragraph", paragraphArea.getText());
+
+        for (String word : wordHashMap.keySet()) {
+            Word wordObj = wordsList.getWord(word);
+            if (wordObj.getPrimaryMeaningIndex() != 9999) {
+                String meaning = wordObj.getPrimaryMeaning();
+                    //add word-meaning into json
+                    jsonObject.put(word, meaning);
+                    //save into json file
+                    try (FileWriter file = new FileWriter("paragraphMeanings.json")) {
+                        file.write(jsonObject.toString());
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+            }
+        }
+
+
     }
 
 

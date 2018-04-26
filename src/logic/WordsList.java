@@ -1,6 +1,6 @@
 /**
- *  Tøída WordsList -
- *@author     Doležálek Jan, Kalenský Štìpán, Šorf Filip
+ *  Tï¿½ï¿½da WordsList -
+ *@author     Doleï¿½ï¿½lek Jan, Kalenskï¿½ ï¿½tï¿½pï¿½n, ï¿½orf Filip
  *@version    1.0      
  *@created    LS 2017/2018
  */
@@ -77,9 +77,15 @@ public class WordsList extends Observable {
 
     }
 
-    public void setPrimaryMeaning(String word, int meaning) {
+    public void setPrimaryMeaningIndex(String word, int meaning) {
         if (this.stringWordsMap.get(word) != null) {
             this.stringWordsMap.get(word).setPrimaryMeaningIndex(meaning);
+        }
+    }
+
+    public void setPrimaryMeaning(String word, String meaning) {
+        if (this.stringWordsMap.get(word) != null) {
+            this.stringWordsMap.get(word).setPrimaryMeaning(meaning);
         }
     }
 

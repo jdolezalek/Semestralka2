@@ -1,6 +1,6 @@
 /**
- *  Tøída Word -
- *@author     Doležálek Jan, Kalenský Štìpán, Šorf Filip
+ *  Tï¿½ï¿½da Word -
+ *@author     Doleï¿½ï¿½lek Jan, Kalenskï¿½ ï¿½tï¿½pï¿½n, ï¿½orf Filip
  *@version    1.0      
  *@created    LS 2017/2018
  */
@@ -17,6 +17,8 @@ public class Word {
 
     //int nemuze byt null -> defaultne je 0!! pro porovnavani indexu v listView by tak byla oznacena 0 polozka v seznamu i kdyz byt nebyla nasetovana hodnota primaryMeaning
     private int primaryMeaningIndex = 9999;
+
+    private String primaryMeaning = "";
 
 
     public Word(String word) {
@@ -38,8 +40,16 @@ public class Word {
         this.primaryMeaningIndex = primaryMeaningIndex;
     }
 
+    public void setPrimaryMeaning(String primaryMeaning) {
+        this.primaryMeaning = primaryMeaning;
+    }
+
     public int getPrimaryMeaningIndex() {
         return primaryMeaningIndex;
+    }
+
+    public String getPrimaryMeaning() {
+        return primaryMeaning;
     }
 
 
