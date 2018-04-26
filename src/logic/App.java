@@ -1,6 +1,6 @@
  /**
- *  T��da App -
- *@author     Dole��lek Jan, Kalensk� �t�p�n, �orf Filip ščřžýáí
+ *  Třída App -
+ *@author     Doležálek Jan, Kalenský Štěpán, Šorf Filip
  *@version    1.0      
  *@created    LS 2017/2018
  */
