@@ -1,6 +1,6 @@
 /**
- *  Tøída Main -
- *@author     Doleálek Jan, Kalenskı Štìpán, Šorf Filip
+ *  TÅ™Ã­da -
+ *@author     DoleÅ¾Ã¡lek Jan, KalenskÃ½ Å tÄ›pÃ¡n, Å orf Filip
  *@version    1.0      
  *@created    LS 2017/2018
  */
