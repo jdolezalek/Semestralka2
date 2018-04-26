@@ -1,3 +1,9 @@
+/**
+ *  Tøída Paragraph -
+ *@author     Doležálek Jan, Kalenský Štìpán, Šorf Filip
+ *@version    1.0      
+ *@created    LS 2017/2018
+ */
 package logic;
 
 import java.util.HashMap;
