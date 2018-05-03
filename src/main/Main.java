@@ -29,7 +29,8 @@ public class Main extends Application {
         controller.init(app);
 
         primaryStage.setTitle("Awesome machine learning app");
-        primaryStage.setScene(new Scene(root, 1000, 800));
+        primaryStage.setScene(new Scene(root, 750, 550));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 

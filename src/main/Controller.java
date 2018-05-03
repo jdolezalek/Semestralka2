@@ -96,7 +96,7 @@ public class Controller extends GridPane implements Observer {
 
     @FXML
     private void wordSelected() {
-        if (paragraphArea.getSelectedText().length() > 0) {
+        if (paragraphArea.getSelectedText().length() > 0 && wordsList.getWord(paragraphArea.getSelectedText()) != null) {
 
             String selectedWord = paragraphArea.getSelectedText();
             String trimmed = selectedWord.trim();
