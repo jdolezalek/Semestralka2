@@ -112,6 +112,8 @@ public class Controller extends GridPane implements Observer {
                 highlightPrimaryMeaningInListView(trimmed);
             }
             wordLabel.setText(trimmed);
+            validateInput.setText(trimmed);
+            validate();
         }
     }
 
