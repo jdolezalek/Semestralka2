@@ -21,7 +21,7 @@ public class App {
 
 
 /**
- * Metoda, která načítá zdrojový soubor pro odstavec a vytváří odstavec v aplikaci z načteného souboru.
+ * Metoda, která načítá zdrojový soubor pro odstavec a vytváří odstavec v aplikaci.
  * Vytváří také pravý sloupec s významy slova.
  */
 
@@ -37,10 +37,10 @@ public class App {
 
     }
     /**
-     * Metoda, která rozseká text v paragrafu na jednotlivá slova.
+     * Metoda, která čte text z načteného souboru.
      * 
      * @param filename - název souboru včetně cesty k němu
-     * @return vrátí rozsekaná slova
+     * @return vrátí načtený text
      */
     private String readFile(String filename) {
         StringBuilder sb = new StringBuilder();
@@ -70,8 +70,8 @@ public class App {
     }
 
 /**
- * Metoda vrací paragraf. 
- * @return paragraf
+ * Metoda vrací třídu paragraf. 
+ * @return paragraf - třída paragraf 
  */
     public Paragraph getParagraph() {
         return paragraph;
@@ -79,8 +79,8 @@ public class App {
 
 
 /**
- * Metoda vrací list s významy
- * @return list s významy
+ * Metoda vrací třídu list s významy
+ * @return list s významy - třída wordsList
  */
     public WordsList getWordsList() {
         return wordsList;
