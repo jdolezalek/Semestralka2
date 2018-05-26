@@ -37,9 +37,11 @@ public class Paragraph {
 
         for (String word : words) {
             String trimmed;
-            trimmed = word.replaceAll("[\\.,\\,]", "");
+            trimmed = word.replaceAll("[\\.\\,\\=\\!\\?\\/\\_\0-9]","");//("[\\.,\\,]", "");
             hashMap.put(trimmed, new Word(trimmed));
-
+            while (hashMap.containsKey("")) {
+				hashMap.remove("");
+			}
         }
         this.paragraphStringWordMap = hashMap;
 
