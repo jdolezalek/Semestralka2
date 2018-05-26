@@ -12,7 +12,7 @@ Aplikace je frontend pro trénování významů slov v textech. Uživatel čte t
 ## Úkoly týmu
 |     Jméno     |                Návrh řešení úkol                    |                  Implementace úkol             |
 | :-----------: |:---------------------------------------------------:| :---------------------------------------------:|
-| Doležálek Jan | logika aplikace ; class diagram ; struktura souborů |                  class Word                    |
+| Doležálek Jan | logika aplikace ; class diagram ; struktura souborů |      class Word ; class Controller ; testy     |
 |Kalenský Štěpán|  use case diagram ; slovní popis use case diagramu  |                class Paragraph                 |
 |   Šorf Filip  |   návrh uživatelského rozhraní ; týmové konvence    | class Wordslist ; class App ; class Controller |
 |       Tým     |                                                     |                integrace ; class Main          |
