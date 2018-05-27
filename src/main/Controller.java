@@ -11,13 +11,15 @@ package main;
 
 import javafx.fxml.FXML;
 import javafx.scene.layout.GridPane;
-
+import javafx.scene.web.WebView;
+import javafx.stage.Stage;
 import logic.App;
 
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.*;
 
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
@@ -221,4 +223,35 @@ public class Controller extends GridPane implements Observer {
         }
     }
 
+    /**
+	   * Metoda, která nám zobrazí nápovědu
+	   */
+	  
+	
+		@FXML public void help() {
+			Stage help = new Stage();
+			help.setTitle("Help");
+			
+			WebView webView = new WebView();
+			webView.getEngine().load(getClass().getResource("../res/help.html").toExternalForm());
+	        
+	        help.setScene(new Scene(webView, 1200, 850));
+	        help.show();
+		}
+		
+		/**
+		   * Metoda, která nám zobrazí about
+		   */
+		  
+		
+			@FXML public void about() {
+				Stage help = new Stage();
+				help.setTitle("About");
+				
+				WebView webView = new WebView();
+				webView.getEngine().load(getClass().getResource("../res/about.html").toExternalForm());
+		        
+		        help.setScene(new Scene(webView, 1200, 850));
+		        help.show();
+			}
 }
